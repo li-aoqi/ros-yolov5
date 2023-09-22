@@ -10,9 +10,10 @@ from geometry_msgs.msg import PoseStamped
 import os
 
 #加载本地的模型文件
-model_weights_path = os.getcwd() +'/ros-yolov5'
+
 # 可以使用自己训练的模型来替换
-model = torch.hub.load(model_weights_path, 'custom','1111.pt', source='local')  # local repo
+model_weights_path = os.getcwd()
+model = torch.hub.load(model_weights_path, 'custom','yolov5s.pt', source='local')  # local repo
 # 首次测试的时候用下面这个
 # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 # model.conf = 0.5
