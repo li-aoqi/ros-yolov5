@@ -1,0 +1,12 @@
+names:
+- Target
+nc: 1
+roboflow:
+  license: Public Domain
+  project: hard-hat-sample-f3b88
+  url: https://app.roboflow.com/aoqi-li-ihhbf/hard-hat-sample-f3b88/3
+  version: 3
+  workspace: aoqi-li-ihhbf
+test: ../test/images
+train: target-car/train/images
+val: target-car/valid/images

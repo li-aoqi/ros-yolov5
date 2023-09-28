@@ -1,0 +1,12 @@
+names:
+- circle
+nc: 1
+roboflow:
+  license: Private
+  project: circle_detector_for_702image
+  url: https://app.roboflow.com/maslab/circle_detector_for_702image/2
+  version: 2
+  workspace: maslab
+test: ../test/images
+train: circle_detector_for_702image-2/train/images
+val: circle_detector_for_702image-2/valid/images

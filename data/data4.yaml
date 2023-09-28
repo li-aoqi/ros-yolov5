@@ -1,0 +1,12 @@
+names:
+- Target
+nc: 1
+roboflow:
+  license: Public Domain
+  project: target-car
+  url: https://app.roboflow.com/aoqi-li-ihhbf/target-car/4
+  version: 4
+  workspace: aoqi-li-ihhbf
+test: ../test/images
+train: target-car-4/train/images
+val: target-car-4/valid/images
